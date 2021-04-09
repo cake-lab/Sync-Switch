@@ -1,0 +1,197 @@
+Job name: test, SGD: BSP
+Started training at:    2020-09-06 18:39:13.549733
+Job name: test, SGD: BSP
+Started training at:    2020-09-06 18:42:45.002105
+Ended training at:    2020-09-06 18:44:15.479950, 400 steps
+Final loss:    1.769259Job name: test, SGD: BSP
+Started training at:    2020-09-06 19:02:40.931489
+Ended training at:    2020-09-06 19:04:11.240482, 400 steps
+Final loss:    1.6795641Job name: test, SGD: BSP
+Job name: test, SGD: BSP
+Job name: test, SGD: BSP
+Started training at:    2020-09-09 21:41:57.483197
+Job name: test, SGD: BSP
+Job name: test, SGD: BSP
+Started training at:    2020-09-09 22:06:43.363365
+Ended training at:    2020-09-09 22:08:13.247253, 400 steps
+Final loss:    1.6835883Job name: test, SGD: BSP
+Job name: test, SGD: BSP
+Started training at:    2020-09-09 22:12:54.360748
+Ended training at:    2020-09-09 22:28:14.870624, 400 steps
+Final loss:    1.1693354
+Job name: cluster_16_bsp_run1, SGD: BSP
+Started training at:    2020-09-13 21:02:09.694025
+Ended training at:    2020-09-13 23:38:59.178605, 4000 steps
+Final loss:    0.002732629
+Job name: cifar100_run1, SGD: BSP
+Started training at:    2020-09-14 16:47:17.546812
+Ended training at:    2020-09-14 19:55:23.727268, 16000 steps
+Final loss:    0.007457245
+Job name: cifar100_bsp_run2, SGD: BSP
+Started training at:    2020-09-14 22:00:34.364311
+Ended training at:    2020-09-15 01:08:25.129885, 16000 steps
+Final loss:    0.007209887Job name: cifar100_bsp_run3, SGD: BSP
+Started training at:    2020-09-15 01:28:58.870187
+Ended training at:    2020-09-15 04:36:55.284904, 16000 steps
+Final loss:    0.0053582597
+
+Job name: cifar100_bsp_run4, SGD: BSP
+Started training at:    2020-09-15 16:51:42.946125
+Ended training at:    2020-09-15 20:00:43.393053, 16000 steps
+Final loss:    0.0082099615Job name: cifar100_bsp_run5, SGD: BSP
+Started training at:    2020-09-15 20:10:26.277895
+Ended training at:    2020-09-15 23:18:44.566097, 16000 steps
+Final loss:    0.007341214Job name: cifar100_bsp_smaller_lr_run1, SGD: BSP
+Started training at:    2020-09-16 20:44:52.841294
+Ended training at:    2020-09-16 23:44:56.395312, 16000 steps
+Final loss:    0.0063426862Job name: cifar100_5050_run1, SGD: BSP
+Started training at:    2020-09-17 16:39:38.610155
+Ended training at:    2020-09-17 18:10:43.640864, 8000 steps
+Final loss:    0.44815227Job name: cifar100_5050_run2, SGD: BSP
+Started training at:    2020-09-17 19:19:11.617591
+Ended training at:    2020-09-17 20:50:11.460086, 8000 steps
+Final loss:    0.44718274Job name: cifar100_5050_run3, SGD: BSP
+Started training at:    2020-09-17 21:56:55.066256
+Ended training at:    2020-09-17 23:27:59.763273, 8000 steps
+Final loss:    0.44415373Job name: cifar100_5050_run4, SGD: BSP
+Started training at:    2020-09-18 00:41:28.655268
+Ended training at:    2020-09-18 02:12:10.474156, 8000 steps
+Final loss:    0.38581395Job name: cifar100_5050_run5, SGD: BSP
+Started training at:    2020-09-18 03:10:15.967567
+Ended training at:    2020-09-18 04:41:03.598966, 8000 steps
+Final loss:    0.32443598Job name: cifar100_2575_run1, SGD: BSP
+Started training at:    2020-09-18 14:28:11.701582
+Ended training at:    2020-09-18 15:13:18.023292, 4000 steps
+Final loss:    0.5037755
+Job name: cifar100_2575_run2, SGD: BSP
+Started training at:    2020-09-18 18:42:12.962026
+Ended training at:    2020-09-18 19:27:12.252775, 4000 steps
+Final loss:    0.53643185Job name: cifar100_2575_run3, SGD: BSP
+Started training at:    2020-09-18 20:50:46.819112
+Ended training at:    2020-09-18 21:35:38.497203, 4000 steps
+Final loss:    0.49946707Job name: cifar100_2575_run4, SGD: BSP
+Started training at:    2020-09-18 23:33:41.399505
+Ended training at:    2020-09-19 00:18:29.782628, 4000 steps
+Final loss:    0.5153655Job name: cifar100_2575_run5, SGD: BSP
+Started training at:    2020-09-19 02:42:13.187242
+Ended training at:    2020-09-19 03:26:57.783927, 4000 steps
+Final loss:    0.4990823Job name: cifar100_1288_run1, SGD: BSP
+Started training at:    2020-09-19 14:25:50.046790
+Ended training at:    2020-09-19 14:48:56.267520, 2000 steps
+Final loss:    0.76035005Job name: cifar100_1288_run2, SGD: BSP
+Started training at:    2020-09-19 16:26:14.858070
+Ended training at:    2020-09-19 16:48:57.444911, 2000 steps
+Final loss:    0.8635231Job name: cifar100_1288_run3, SGD: BSP
+Started training at:    2020-09-19 18:34:19.837944
+Ended training at:    2020-09-19 18:57:04.098732, 2000 steps
+Final loss:    0.7786301Job name: cifar100_1288_run4, SGD: BSP
+Started training at:    2020-09-19 20:39:11.626378
+Ended training at:    2020-09-19 21:02:00.275656, 2000 steps
+Final loss:    0.7861101Job name: cifar100_1288_run5, SGD: BSP
+Started training at:    2020-09-19 23:11:25.824588
+Ended training at:    2020-09-19 23:34:23.036766, 2000 steps
+Final loss:    0.81769246Job name: cifar100_694_run1, SGD: BSP
+Started training at:    2020-09-20 01:12:33.711293
+Ended training at:    2020-09-20 01:24:02.994779, 1000 steps
+Final loss:    1.400389Job name: cifar100_694_run2, SGD: BSP
+Started training at:    2020-09-20 15:07:46.029715
+Ended training at:    2020-09-20 15:19:27.156307, 1000 steps
+Final loss:    1.3712449Job name: cifar100_694_run3, SGD: BSP
+Started training at:    2020-09-20 17:27:15.779262
+Ended training at:    2020-09-20 17:38:42.553885, 1000 steps
+Final loss:    1.3068376Job name: cifar100_694_run4, SGD: BSP
+Started training at:    2020-09-20 19:21:27.491922
+Ended training at:    2020-09-20 19:32:56.486837, 1000 steps
+Final loss:    1.6207343Job name: cifar100_694_run5, SGD: BSP
+Started training at:    2020-09-20 21:16:13.087591
+Ended training at:    2020-09-20 21:27:36.272941, 1000 steps
+Final loss:    1.7565666
+Job name: 5050_run1, SGD: BSP
+Started training at:    2020-10-08 00:16:07.160050
+Ended training at:    2020-10-08 01:33:23.747823, 4000 steps
+Final loss:    0.18570858Job name: 2575_run1, SGD: BSP
+Started training at:    2020-10-08 01:59:22.266447
+Ended training at:    2020-10-08 02:38:02.815926, 2000 steps
+Final loss:    0.2711007
+Job name: 694_run1, SGD: BSP
+Started training at:    2020-10-08 16:55:54.077492
+Ended training at:    2020-10-08 17:06:13.137613, 500 steps
+Final loss:    1.0689216Job name: 694_run2, SGD: BSP
+Started training at:    2020-10-08 17:42:21.818733
+Ended training at:    2020-10-08 17:52:26.272809, 500 steps
+Final loss:    0.9792647
+Job name: cluster_16_bsp_run2, SGD: BSP
+Started training at:    2020-10-09 17:31:16.972116
+Ended training at:    2020-10-09 20:21:23.347678, 4000 steps
+Final loss:    0.0010308841
+Job name: cluster_16_bsp_run3, SGD: BSP
+Started training at:    2020-10-10 17:08:29.569267
+Ended training at:    2020-10-10 19:43:36.545509, 4000 steps
+Final loss:    0.0016792737
+Job name: cluster_16_5050_run1, SGD: BSP
+Started training at:    2020-10-10 21:20:43.287888
+Ended training at:    2020-10-10 22:38:15.611174, 2000 steps
+Final loss:    0.2436738
+Job name: cluster_16_5050_run2, SGD: BSP
+Started training at:    2020-10-10 23:13:58.584588
+Ended training at:    2020-10-11 00:31:29.069170, 2000 steps
+Final loss:    0.198605
+Job name: cluster_16_5050_run3, SGD: BSP
+Started training at:    2020-10-11 15:16:18.310867
+Ended training at:    2020-10-11 16:35:34.215710, 2000 steps
+Final loss:    0.105941996
+Job name: baseline_freq1_1strggler_10ms_run3, SGD: BSP
+Started training at:    2020-10-20 23:38:52.732219
+Ended training at:    2020-10-20 23:48:31.251402, 400 steps
+Final loss:    1.1134351
+Job name: baseline_freq1_1strggler_10ms_run1, SGD: BSP
+Started training at:    2020-10-21 00:21:43.702157
+Ended training at:    2020-10-21 00:31:21.266475, 400 steps
+Final loss:    0.8130307Job name: baseline_freq1_1strggler_10ms_run2, SGD: BSP
+Started training at:    2020-10-21 02:18:39.188763
+Ended training at:    2020-10-21 02:28:25.053073, 400 steps
+Final loss:    0.63679445
+Job name: policy1_freq1_1strggler_10ms_run1, SGD: BSP
+Started training at:    2020-10-21 03:25:17.320469
+Ended training at:    2020-10-21 03:30:12.828060, 200 steps
+Final loss:    1.4365078Job name: policy1_freq1_1strggler_10ms_run1, SGD: BSP
+Started training at:    2020-10-21 03:38:51.533084
+Ended training at:    2020-10-21 03:43:28.574301, 3400 steps
+Final loss:    0.9491913
+Job name: policy1_freq1_1strggler_10ms_run2, SGD: BSP
+Started training at:    2020-10-21 04:26:01.774369
+Ended training at:    2020-10-21 04:30:57.908981, 200 steps
+Final loss:    1.7038047Job name: policy1_freq1_1strggler_10ms_run2, SGD: BSP
+Started training at:    2020-10-21 04:39:14.536833
+Ended training at:    2020-10-21 04:43:55.755472, 3400 steps
+Final loss:    1.1393331Job name: policy1_freq1_1strggler_10ms_run3, SGD: BSP
+Started training at:    2020-10-21 14:40:56.904331
+Ended training at:    2020-10-21 14:46:04.014384, 200 steps
+Final loss:    1.5261531Job name: policy1_freq1_1strggler_10ms_run3, SGD: BSP
+Started training at:    2020-10-21 14:56:21.350040
+Ended training at:    2020-10-21 15:01:08.834442, 3400 steps
+Final loss:    0.7875593
+Job name: policy2_freq1_1strggler_10ms_run1, SGD: BSP
+Started training at:    2020-10-21 16:19:48.885360
+Ended training at:    2020-10-21 16:29:02.999952, 400 steps
+Final loss:    1.4331828Job name: policy2_freq1_1strggler_10ms_run2, SGD: BSP
+Started training at:    2020-10-21 17:04:17.267182
+Ended training at:    2020-10-21 17:13:51.028557, 400 steps
+Final loss:    0.97097486Job name: policy2_freq1_1strggler_10ms_run3, SGD: BSP
+Started training at:    2020-10-21 17:46:27.886094
+Ended training at:    2020-10-21 17:55:43.861792, 400 steps
+Final loss:    1.0603639
+Job name: baseline_freq4_2strggler_30ms_run1, SGD: BSP
+Started training at:    2020-10-21 23:24:14.429645
+Ended training at:    2020-10-21 23:36:23.769274, 400 steps
+Final loss:    0.6974783Job name: baseline_freq4_2strggler_30ms_run2, SGD: BSP
+Started training at:    2020-10-22 00:08:26.429625
+Ended training at:    2020-10-22 00:20:27.780707, 400 steps
+Final loss:    0.8534235Job name: baseline_freq4_2strggler_30ms_run3, SGD: BSP
+Started training at:    2020-10-22 03:26:23.389384
+Ended training at:    2020-10-22 03:38:56.120782, 400 steps
+Final loss:    0.9582875
+Job name: policy2_freq4_2strggler_30ms_run1, SGD: BSP
+Started training at:    2020-10-22 04:23:03.647151
+Ended training at:    2020-10-22 04:32:13.294212, 400 steps
+Final loss:    0.91730076

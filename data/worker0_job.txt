@@ -1,0 +1,150 @@
+Job name: cifar100_asp_run1, SGD: ASP
+Started training at:    2020-09-15 23:22:58.501695
+Ended training at:    2020-09-16 01:04:55.582164, 128013 steps
+Final loss:    0.0052751163Job name: cifar100_asp_run2, SGD: ASP
+Started training at:    2020-09-16 02:11:35.484677
+Ended training at:    2020-09-16 03:53:36.880000, 128014 steps
+Final loss:    0.009837472Job name: cifar100_asp_run3, SGD: ASP
+Started training at:    2020-09-16 23:48:47.299357
+Ended training at:    2020-09-17 01:29:29.169504, 128014 steps
+Final loss:    0.009369694Job name: cifar100_asp_run4, SGD: ASP
+Started training at:    2020-09-17 02:19:51.495181
+Ended training at:    2020-09-17 04:00:35.828438, 128014 steps
+Final loss:    0.043419912Job name: cifar100_asp_run5, SGD: ASP
+Started training at:    2020-09-17 14:48:00.230275
+Ended training at:    2020-09-17 16:29:31.537330, 128014 steps
+Final loss:    0.013435226Job name: cifar100_5050_run1, SGD: ASP
+Started training at:    2020-09-17 18:13:52.858905
+Ended training at:    2020-09-17 19:05:03.335274, 72014 steps
+Final loss:    0.0141178295Job name: cifar100_5050_run2, SGD: ASP
+Started training at:    2020-09-17 20:53:20.950931
+Ended training at:    2020-09-17 21:44:27.857834, 72013 steps
+Final loss:    0.011108641Job name: cifar100_5050_run3, SGD: ASP
+Started training at:    2020-09-17 23:31:08.059120
+Ended training at:    2020-09-18 00:22:15.866277, 72013 steps
+Final loss:    0.028742582Job name: cifar100_5050_run4, SGD: ASP
+Started training at:    2020-09-18 02:15:17.677318
+Ended training at:    2020-09-18 03:06:29.599124, 72014 steps
+Final loss:    0.009334823Job name: cifar100_5050_run5, SGD: ASP
+Started training at:    2020-09-18 04:44:17.008126
+Ended training at:    2020-09-18 05:35:27.177247, 72014 steps
+Final loss:    0.024236372Job name: cifar100_2575_run1, SGD: ASP
+Started training at:    2020-09-18 15:16:26.800069
+Ended training at:    2020-09-18 16:33:28.291405, 100013 steps
+Final loss:    0.011492923
+Job name: cifar100_2575_run2, SGD: ASP
+Started training at:    2020-09-18 19:30:17.075520
+Ended training at:    2020-09-18 20:47:09.515555, 100012 steps
+Final loss:    0.004588533Job name: cifar100_2575_run3, SGD: ASP
+Started training at:    2020-09-18 21:38:44.283332
+Ended training at:    2020-09-18 22:55:40.321849, 100014 steps
+Final loss:    0.008339142Job name: cifar100_2575_run4, SGD: ASP
+Started training at:    2020-09-19 00:21:36.883736
+Ended training at:    2020-09-19 01:38:35.986921, 100013 steps
+Final loss:    0.0077476595Job name: cifar100_2575_run5, SGD: ASP
+Started training at:    2020-09-19 03:30:09.442451
+Ended training at:    2020-09-19 04:46:58.439214, 100012 steps
+Final loss:    0.0054350877Job name: cifar100_1288_run1, SGD: ASP
+Started training at:    2020-09-19 14:52:08.093216
+Ended training at:    2020-09-19 16:22:40.412900, 114014 steps
+Final loss:    0.0047041927Job name: cifar100_1288_run2, SGD: ASP
+Started training at:    2020-09-19 16:52:05.334525
+Ended training at:    2020-09-19 18:22:43.765211, 114014 steps
+Final loss:    0.006923729Job name: cifar100_1288_run3, SGD: ASP
+Started training at:    2020-09-19 19:00:10.754736
+Ended training at:    2020-09-19 20:30:43.833980, 114013 steps
+Final loss:    0.0030023567Job name: cifar100_1288_run4, SGD: ASP
+Started training at:    2020-09-19 21:05:07.068090
+Ended training at:    2020-09-19 22:35:43.951447, 114013 steps
+Final loss:    0.0053872634Job name: cifar100_1288_run5, SGD: ASP
+Started training at:    2020-09-19 23:37:34.361253
+Ended training at:    2020-09-20 01:08:15.095599, 114014 steps
+Final loss:    0.0035725203Job name: cifar100_694_run1, SGD: ASP
+Started training at:    2020-09-20 01:27:07.162908
+Ended training at:    2020-09-20 03:04:06.707056, 121012 steps
+Final loss:    0.00529988Job name: cifar100_694_run2, SGD: ASP
+Started training at:    2020-09-20 15:22:35.555893
+Ended training at:    2020-09-20 16:58:08.856180, 121013 steps
+Final loss:    0.02516135Job name: cifar100_694_run3, SGD: ASP
+Started training at:    2020-09-20 17:41:46.457512
+Ended training at:    2020-09-20 19:17:20.030539, 121014 steps
+Final loss:    0.0032033697Job name: cifar100_694_run4, SGD: ASP
+Started training at:    2020-09-20 19:36:02.480291
+Ended training at:    2020-09-20 21:11:42.866825, 121013 steps
+Final loss:    0.008722852Job name: cifar100_694_run5, SGD: ASP
+Started training at:    2020-09-20 21:30:41.484681
+Ended training at:    2020-09-20 23:06:18.858374, 121014 steps
+Final loss:    0.012323091Job name: 5050_run1, SGD: ASP
+Started training at:    2020-10-08 01:36:30.907239
+Ended training at:    2020-10-08 01:49:52.844574, 36014 steps
+Final loss:    0.024708785Job name: 2575_run1, SGD: ASP
+Started training at:    2020-10-08 02:41:06.795415
+Ended training at:    2020-10-08 03:00:56.900497, 50014 steps
+Final loss:    0.006346824
+Job name: 694_run1, SGD: ASP
+Started training at:    2020-10-08 17:09:22.590821
+Ended training at:    2020-10-08 17:34:07.298709, 60513 steps
+Final loss:    0.023295805Job name: 694_run2, SGD: ASP
+Started training at:    2020-10-08 17:55:30.443718
+Ended training at:    2020-10-08 18:20:13.257873, 60513 steps
+Final loss:    0.008523761
+Job name: cluster_16_5050_run1, SGD: ASP
+Started training at:    2020-10-10 22:41:39.360252
+Ended training at:    2020-10-10 22:48:41.990039, 34030 steps
+Final loss:    0.060461886Job name: cluster_16_5050_run2, SGD: ASP
+Started training at:    2020-10-11 00:34:46.427761
+Ended training at:    2020-10-11 00:41:48.334837, 34029 steps
+Final loss:    0.09640023Job name: cluster_16_5050_run3, SGD: ASP
+Started training at:    2020-10-11 16:38:56.400021
+Ended training at:    2020-10-11 16:46:02.520795, 34029 steps
+Final loss:    0.0012538304
+Job name: baseline_freq1_1strggler_10ms_run3, SGD: ASP
+Started training at:    2020-10-20 23:51:05.737320
+Ended training at:    2020-10-21 00:16:09.760800, 61213 steps
+Final loss:    0.007650693Job name: baseline_freq1_1strggler_10ms_run1, SGD: ASP
+Started training at:    2020-10-21 00:33:56.163433
+Ended training at:    2020-10-21 00:59:01.170684, 61213 steps
+Final loss:    0.012602665Job name: baseline_freq1_1strggler_10ms_run2, SGD: ASP
+Started training at:    2020-10-21 02:31:04.788192
+Ended training at:    2020-10-21 02:56:07.826954, 61214 steps
+Final loss:    0.00068545353
+Job name: policy1_freq1_1strggler_10ms_run1, SGD: ASP
+Started training at:    2020-10-21 03:33:10.272134
+Ended training at:    2020-10-21 03:35:01.712665, 3214 steps
+Final loss:    1.1683805Job name: policy1_freq1_1strggler_10ms_run1, SGD: ASP
+Started training at:    2020-10-21 03:46:06.630557
+Ended training at:    2020-10-21 04:10:00.674740, 61214 steps
+Final loss:    0.020116482Job name: policy1_freq1_1strggler_10ms_run2, SGD: ASP
+Started training at:    2020-10-21 04:33:59.934342
+Ended training at:    2020-10-21 04:35:50.068002, 3212 steps
+Final loss:    1.4490938Job name: policy1_freq1_1strggler_10ms_run2, SGD: ASP
+Started training at:    2020-10-21 04:46:33.356531
+Ended training at:    2020-10-21 05:10:26.293348, 61213 steps
+Final loss:    0.006523637Job name: policy1_freq1_1strggler_10ms_run3, SGD: ASP
+Started training at:    2020-10-21 14:50:02.580835
+Ended training at:    2020-10-21 14:51:51.856605, 3211 steps
+Final loss:    1.5808558Job name: policy1_freq1_1strggler_10ms_run3, SGD: ASP
+Started training at:    2020-10-21 15:03:43.762425
+Ended training at:    2020-10-21 15:27:39.557562, 61213 steps
+Final loss:    0.0022379048Job name: policy2_freq1_1strggler_10ms_run1, SGD: ASP
+Started training at:    2020-10-21 16:32:44.216894
+Ended training at:    2020-10-21 16:57:53.653776, 61214 steps
+Final loss:    0.0058071935Job name: policy2_freq1_1strggler_10ms_run2, SGD: ASP
+Started training at:    2020-10-21 17:16:35.007838
+Ended training at:    2020-10-21 17:41:47.654166, 61214 steps
+Final loss:    0.0034744476Job name: policy2_freq1_1strggler_10ms_run3, SGD: ASP
+Started training at:    2020-10-21 17:58:59.125649
+Ended training at:    2020-10-21 18:24:08.700935, 61213 steps
+Final loss:    0.0073814434Job name: baseline_freq4_2strggler_30ms_run1, SGD: ASP
+Started training at:    2020-10-21 23:39:08.892927
+Ended training at:    2020-10-22 00:04:08.309485, 61213 steps
+Final loss:    0.008393425Job name: baseline_freq4_2strggler_30ms_run2, SGD: ASP
+Started training at:    2020-10-22 00:23:04.706551
+Ended training at:    2020-10-22 00:48:04.121173, 61214 steps
+Final loss:    0.005976136Job name: baseline_freq4_2strggler_30ms_run3, SGD: ASP
+Started training at:    2020-10-22 03:43:07.038845
+Ended training at:    2020-10-22 04:07:42.017516, 61214 steps
+Final loss:    0.005180719Job name: policy2_freq4_2strggler_30ms_run1, SGD: ASP
+Started training at:    2020-10-22 04:35:27.443925
+Ended training at:    2020-10-22 05:00:31.083884, 61213 steps
+Final loss:    0.01154697
