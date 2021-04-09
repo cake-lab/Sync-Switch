@@ -24,16 +24,3 @@ def getsize(obj):
                 need_referents.append(obj)
         objects = get_referents(*need_referents)
     return size
-
-class thing(object):
-    def __init__(self):
-        self.var = 1
-        self.var2 = 10
-        self.arr = [1,2,3,4,5,6,7,8,9,10]
-
-obj = thing()
-var = 12312412
-arr = [1,2,3,4,5,6,7,8,9]
-print sys.getsizeof(arr)
-print sys.getsizeof(obj)
-print getsize(obj)
