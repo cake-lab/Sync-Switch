@@ -174,6 +174,8 @@ The experiment data can be found in the data directory.
 
 - `straggler/` contains experiments data involving slowdown scenarios
 
+For each child directory under the `data/`, we further breakdown the experiment data based on their respective experiment configurations. Below, we explain the naming schemes used. **TODO**
+
 In each child directory `loss.csv` and `acc.csv` contains raw data, and `loss_proc.csv` and `acc_proc.csv` processed data. `Weight_decay.csv` contains additional data on quantified weight decay during the training, but was not used in the paper.
 
 ## Acknowledgement
