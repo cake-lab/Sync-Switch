@@ -182,12 +182,5 @@ This work is supported in part by National Science Foundation grants #1755659 an
 
 ## Contact
 
-More project information can be found in our lab's [project site](https://cake-lab.github.io/projects/). 
-
-- Shijian Li [sli8@wpi.edu](sli8@wpi.edu)
-
-- Oren Mangoubi [omangoubi@wpi.edu](omangoubi@wpi.edu)
-
-- Lijie Xu [xulijie@iscas.ac.cn](xulijie@iscas.ac.cn)
-
-- Tian Guo [tian@wpi.edu](tian@wpi.edu)
+More project information can be found in our lab's [project site](https://cake-lab.github.io/projects/). Should you have any questions, please contact 
+Shijian Li [sli8@wpi.edu](sli8@wpi.edu) and Tian Guo [tian@wpi.edu](tian@wpi.edu).
