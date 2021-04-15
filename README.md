@@ -164,17 +164,17 @@ python main.py \
 
 The experiment data can be found in the data directory. 
 
-- bsp_job.txt and asp_job.txt contain the records for the monitored BSP and ASP training session, respectively.
+- `bsp_job.txt` and `asp_job.txt` contain the records for the monitored BSP and ASP training session, respectively.
 
-- cifar10_res32 contains experiments data of training ResNet32 on Cifar-10 with 8 workers
+- `cifar10_res32/` contains experiments data of training ResNet32 on Cifar-10 with 8 workers
 
-- cifar100_res50 contains experiments data of training ResNet50 on Cifar-100 with 8 workers
+- `cifar100_res50/` contains experiments data of training ResNet50 on Cifar-100 with 8 workers
 
-- cluster_16 contains experiments data of training ResNet32 on Cifar-10 with 16 workers
+- `cluster_16/` contains experiments data of training ResNet32 on Cifar-10 with 16 workers
 
-- straggler contains experiments data involving slowdown scenarios
+- `straggler/` contains experiments data involving slowdown scenarios
 
-In each child directory loss.csv and acc.csv contains raw data, and loss_proc.csv and acc_proc.csv processed data. Weight_decay.csv contains additional data on quantified weight decay during the training, but was not used in the paper.
+In each child directory `loss.csv` and `acc.csv` contains raw data, and `loss_proc.csv` and `acc_proc.csv` processed data. `Weight_decay.csv` contains additional data on quantified weight decay during the training, but was not used in the paper.
 
 ## Acknowledgement
 
