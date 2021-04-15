@@ -2,15 +2,15 @@
 
 ## About
 
-This is the repo for the paper [**Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning**]() in proceedings of ICDCS'21. 
+This is the official repo for the paper [**Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning**]() in proceedings of ICDCS'21. 
 
 The paper presented a hybrid synchronization approach that exploits the benefits of both BSP and ASP, i.e., reducing training time while simultaneously maintaining the converged accuracy. Based on extensive empirical profiling, we devise a collection of adaptive policies that determine how and when to switch between synchronization protocols. Our policies include both offline ones that target recurring jobs and online ones for handling transient stragglers. We implement the proposed policies in a prototype system, called Sync-Switch, on top of TensorFlow, and evaluate the training performance with popular deep learning models and datasets. 
 
-#### Citation
+#### Paper 
 
-To be published in proceedings of ICDCS'21. 
+[Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning]().  
 
-You can also site the extended Arxiv version:
+If you use the Sync-Switch data or code, please cite:
 
 ```bibtex
 
