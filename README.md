@@ -28,7 +28,7 @@ If you use the Sync-Switch data or code, please cite:
 
 **Fig 1. Converged accuracy comparison with baselines**
 
-<div align="center"><img src="./img/eval_time_summary.png" width="400" height="250"></div>
+<div align="center"><img src="./img/eval_time_summary.png" width="400" height="400"></div>
 
 **Fig 2. Total training time comparison with baselines**
 

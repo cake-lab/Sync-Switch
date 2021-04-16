@@ -8,8 +8,6 @@ mkdir /tmp/${JOBNAME}
 WORKDIR=/tmp/workdir
 ROOT=ozymandias
 
-#touch /tmp/${JOBNAME}/job_start_time.txt
-#date -u > /tmp/${JOBNAME}/job_start_time.txt
 
 if [[ $# -lt 1 ]]; then
   PROJECT_ID=$(gcloud config list project --format "value(core.project)")
@@ -28,49 +26,15 @@ HPARAM_SET=$6
 PROBLEM_DATA=$7
 TRAIN_STEPS=$8
 CKPT=${9}
-#AUTOMATION_TEST=${10}
-#RUN_NUM=${11}
 CLUSTER_NAME=${10}
 EVAL_NAME=${11}
 DATADIR=${12}
 HPARAM=${13}
 
-#NUM_WORKER=$(( NUM_WORKER + 1 ))
-#
-#NUM_PS=$(( NUM_PS - 1 ))
-#NUM_WORKER=$(( NUM_WORKER - 2 ))
-
 PS_PORT=2223
 WORKER_PORT=2222
 MASTER_INDEX=0
 OUTDIR=${BUCKET}/${JOBNAME}
-
-#if [[ $AUTOMATION_TEST == 1 ]]; then
-#    OUTDIR=${BUCKET}/${JOBNAME}-run${RUN_NUM}
-#else
-#    OUTDIR=${BUCKET}/${JOBNAME}
-#fi
-
-#case $PROBLEM_DATA in
-#    image_cifar10)
-#        DATADIR=gs://ml-west/spotTrain/cifar_data
-#        ;;
-#    image_cifar10_plain)
-#        DATADIR=gs://ml-west/spotTrain/cifar_data_plain
-#        ;;
-#    image_mnist)
-#        DATADIR=gs://ml-west/spotTrain/mnist_data
-#        ;;
-#    image_cifar100)
-#        DATADIR=gs://ml-west/spotTrain/cifar100_data
-#        ;;
-#    *)
-#        echo "Data source not found"
-#esac
-
-#if [[ $AUTOMATION_TEST == 1 ]]; then
-#    JOBNAME=automation
-#fi
 
 # Create TF_CONFIG file
 ps_entry="\"ps\": ["
@@ -118,13 +82,13 @@ gcloud compute scp --zone ${ZONE} \
     root@${EVAL_NAME}:$WORKDIR
 gcloud compute ssh ${ROOT}@${EVAL_NAME} --zone ${ZONE} -- $WORKDIR/start_eval.sh $OUTDIR $DATADIR $MODEL $HPARAM_SET $PROBLEM_DATA &
 
-# Copying scripts to nodes
+### Sequential copy scripts to nodes
 #for i in $(seq 0 $(( NUM_PS - 1 ))); do
 #  echo "Starting ${CLUSTER_NAME}-worker-${i}..."
 #  ZONE=`gcloud compute instances list ${CLUSTER_NAME}-worker-${i} --format 'csv[no-heading](zone)'`
 #  gcloud compute ssh ${ROOT}@${CLUSTER_NAME}-worker-${i} --zone ${ZONE} -- sudo rm -rf $WORKDIR
 #  gcloud compute ssh ${ROOT}@${CLUSTER_NAME}-worker-${i} --zone ${ZONE} -- sudo mkdir -p $WORKDIR
-##  gcloud compute ssh ${ROOT}@${CLUSTER_NAME}-worker-${i} --zone ${ZONE} -- sudo chmod 777 $WORKDIR
+#  gcloud compute ssh ${ROOT}@${CLUSTER_NAME}-worker-${i} --zone ${ZONE} -- sudo chmod 777 $WORKDIR
 #  gcloud compute scp --zone ${ZONE} \
 #    --recurse \
 #    /tmp/${JOBNAME}/tf_config.json start_server.sh \
@@ -170,7 +134,6 @@ CMD=$SSH"::: "$NODE_STR":::+ "$ZONE_STR":::+ "$HYPHEN_STR":::+ "$PS_SCRIPT
 eval $CMD &
 
 SSH="parallel --jobs 20 gcloud compute ssh "
-#SSH=""
 RECUR=""
 NODE_STR=""
 ZONE_STR=""
@@ -184,6 +147,7 @@ PS_STR=""
 WORKER_STR=""
 WAIT_STR=""
 for i in $(seq 1 $(( NUM_WORKER-1 )) ); do
+### Ramped worker start to avoid divergence
 #  SSH+="gcloud compute ssh "
 #  WAIT_STR+="'sleep $(( 5*i )) && ' "
   NODE_STR+="${ROOT}@${CLUSTER_NAME}-worker-${i} "
@@ -202,6 +166,7 @@ CMD=$SSH"::: "$NODE_STR":::+ "$ZONE_STR":::+ "$HYPHEN_STR":::+ "$WORKER_SCRIPT
 #CMD="parallel --jobs 20 :::+ "$WAIT_STR":::+ "$SSH":::+ "$NODE_STR":::+ "$ZONE_STR":::+ "$HYPHEN_STR":::+ "$WORKER_SCRIPT
 eval $CMD &
 
+### Alternative method to start sequentially
 # Start parameter servers in the background
 #for i in $(seq 0 $(( NUM_PS - 1 ))); do
 #  gcloud compute ssh ${ROOT}@${CLUSTER_NAME}-worker-${i} --zone ${ZONE} -- $WORKDIR/start_server.sh $DATADIR $OUTDIR 1 $i $NUM_PS $NUM_WORKER $MODEL $HPARAM_SET $PROBLEM_DATA $TRAIN_STEPS $CKPT ${CLUSTER_NAME} ${JOBNAME} ${HPARAM} &
