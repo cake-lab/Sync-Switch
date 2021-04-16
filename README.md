@@ -174,7 +174,20 @@ The experiment data can be found in the data directory.
 
 - `straggler/` contains experiments data involving slowdown scenarios
 
-For each child directory under the `data/`, we further breakdown the experiment data based on their respective experiment configurations. Below, we explain the naming schemes used. **TODO**
+For each child directory under the `data/`, we further breakdown the experiment data based on their respective experiment configurations. Below, we explain the naming schemes used. 
+
+- `/cifar10_res32`
+    - `/cifar10_res32/baseline` are ASP and BSP baseline data folders labeled as `asp_[run num] and bsp_[run num]`. 
+    - `/cifar10_res32/switch_exp` are hybrid training data labeled as `a/b_[proportion]_[a/b]_[proportion]_[run num]`
+    - The `/cifar10_res32/dynamic` folder contains data of several experiments to use plateaued training loss value as the switching point. Wasn't used in the paper
+    - The `/cifar10_res32/momentum_tunning` folder contains data of several experiments on tunning the momentum during switching to improve training performance. See `readme` inside for details.
+- `/cifar100_res50`
+    - ASP and BSP baselines are named asp/bsp_[run num]. Hybrid training data are labeled as `[bsp proportion]_[asp proportion]_[run num]`.
+- `/cluster_16`
+    - BSP baseline is named bsp_[run num]. No ASP because training failure. Hybrid training data are labeled as `[bsp proportion]_[asp proportion]_[run num]`.
+- `/straggler`
+    - Baselines are `sync/async/hybrid_baseline_[run num]`
+    - Data for the experiments shown in the Evaluation section are labeled as `baseline/policy1/policy2_[frequency of straggler]_[number of straggler]_[run num`
 
 In each child directory `loss.csv` and `acc.csv` contains raw data, and `loss_proc.csv` and `acc_proc.csv` processed data. `Weight_decay.csv` contains additional data on quantified weight decay during the training, but was not used in the paper.
 
