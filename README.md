@@ -24,19 +24,19 @@ If you use the Sync-Switch data or code, please cite:
 
 - Sync-Switchcan effectively circumvent the performance degradation caused by transient stragglers and instead leads to a 1.1X speedup under moderate slowdown scenarios
 
-<div align="center"><img src="./img/eval_acc_summary.png" width="400" height="400"></div>
+<div align="center"><img src="./img/eval_acc_summary.png" width="600" height="400"></div>
 
 **Fig 1. Converged accuracy comparison with baselines**
 
-<div align="center"><img src="./img/eval_time_summary.png" width="400" height="400"></div>
+<div align="center"><img src="./img/eval_time_summary.png" width="600" height="400"></div>
 
 **Fig 2. Total training time comparison with baselines**
 
-<div align="center"><img src="./img/eval_straggler_acc.png" width="400" height="400"></div>
+<div align="center"><img src="./img/eval_straggler_acc.png" width="600" height="400"></div>
 
 **Fig 3. Converged accuracy comparison of straggler scenarios**
 
-<div align="center"><img src="./img/eval_straggler_time.png" width="400" height="400"></div>
+<div align="center"><img src="./img/eval_straggler_time.png" width="600" height="400"></div>
 
 **Fig 4. Total training time comparison of straggler scenarios**
 
