@@ -24,7 +24,7 @@ year={2020}
 
 Bibtex for the arXiv version: 
 ```bibtex
-@misc{li2021syncswitch,
+@misc{li2021syncswitch_arxiv,
       title={Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning}, 
       author={Shijian Li and Oren Mangoubi and Lijie Xu and Tian Guo},
       year={2021},
