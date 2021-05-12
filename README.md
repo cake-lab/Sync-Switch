@@ -2,19 +2,38 @@
 
 ## About
 
-This is the official repo for the paper [**Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning**]() in proceedings of ICDCS'21. 
+This is the official repo for the paper [**Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning**](https://arxiv.org/abs/2104.08364) (to appear) in the proceedings of ICDCS'21. 
 
 The paper presented a hybrid synchronization approach that exploits the benefits of both BSP and ASP, i.e., reducing training time while simultaneously maintaining the converged accuracy. Based on extensive empirical profiling, we devise a collection of adaptive policies that determine how and when to switch between synchronization protocols. Our policies include both offline ones that target recurring jobs and online ones for handling transient stragglers. We implement the proposed policies in a prototype system, called Sync-Switch, on top of TensorFlow, and evaluate the training performance with popular deep learning models and datasets. 
 
 #### Paper 
 
-[Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning]().  
+[Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning](https://arxiv.org/abs/2104.08364).  
 
-If you use the Sync-Switch data or code, please cite:
+If you use the Sync-Switch data or code, please either cite the arxiv version or our ICDCS version:
 
+Bibtex for the ICDCS version: 
 ```bibtex
-
+@INPROCEEDINGS{li2021syncswitch_icdcs,  
+author={Li, Shijian and Mangoubi, Oren and Xu, Lijie and Guo, Tian},  
+booktitle={2021 IEEE 41th International Conference on Distributed Computing Systems (ICDCS)},   
+title={Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning},   
+year={2020}
+}
 ```
+
+Bibtex for the arXiv version: 
+```bibtex
+@misc{li2021syncswitch,
+      title={Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning}, 
+      author={Shijian Li and Oren Mangoubi and Lijie Xu and Tian Guo},
+      year={2021},
+      eprint={2104.08364},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+```
+
 
 #### Highlight
 
