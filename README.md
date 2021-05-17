@@ -18,7 +18,7 @@ Bibtex for the ICDCS version:
 author={Li, Shijian and Mangoubi, Oren and Xu, Lijie and Guo, Tian},  
 booktitle={2021 IEEE 41th International Conference on Distributed Computing Systems (ICDCS)},   
 title={Sync-Switch: Hybrid Parameter Synchronization for Distributed Deep Learning},   
-year={2020}
+year={2021}
 }
 ```
 
